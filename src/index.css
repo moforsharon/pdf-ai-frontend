@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #003145;
+  overflow-y: auto;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.overflow-y-auto::-webkit-scrollbar {
+  display: none;
+}
+
+.overflow-y-auto {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+
+.loading-bar-1 {
+  height: 14px;
+  width: 100%;
+  background: linear-gradient(to right, #1f2937 15%, #44924c 20%, #5f9064 25%);
+  background-size: 200% 100%;
+  animation: loading1 2s infinite linear;
+  border-radius: 2px;
+}
+
+@keyframes loading1 {
+  from {
+    background-position: 200% 0;
+  }
+  to {
+    background-position: -200% 0;
+  }
+}
+
+.loading-bar-2 {
+  height: 12px;
+  width: 100%;
+  background: linear-gradient(to right, #1f2937 15%, #44924c 50%, #5f9064 25%);
+  background-size: 200% 100%;
+  animation: loading2 3s infinite linear;
+  border-radius: 2px;
+}
+
+@keyframes loading2 {
+  from {
+    background-position: 200% 0;
+  }
+  to {
+    background-position: -200% 0;
+  }
+}
+
+.loading-bar-3 {
+  height: 12px;
+  width: 100%;
+  background: linear-gradient(to right, #1f2937 15%, #44924c 50%, #5f9064 25%);
+  background-size: 200% 100%;
+  animation: loading3 4s infinite linear;
+  border-radius: 2px;
+}
+
+@keyframes loading3 {
+  from {
+    background-position: 200% 0;
+  }
+  to {
+    background-position: -200% 0;
+  }
+}
+
