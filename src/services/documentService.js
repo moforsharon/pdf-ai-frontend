@@ -6,7 +6,7 @@ export const uploadDocument = async (file) => {
     formData.append("file", file);
 
     try {
-        const response = await axios.post("/api/documents/", formData);
+        const response = await axios.post("https://pdf-ai-backend.onrender.com/api/documents/", formData);
         return response.data; // Return the response data on success
     } catch (error) {
         console.error('Error uploading document:', error);
