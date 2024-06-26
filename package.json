@@ -2,7 +2,7 @@
   "name": "ai-planet-frontend",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://127.0.0.1:8000",
+  "proxy": "https://pdf-ai-backend.onrender.com/",
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@testing-library/jest-dom": "^5.17.0",
