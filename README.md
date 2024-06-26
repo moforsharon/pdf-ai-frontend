@@ -52,7 +52,7 @@ ai-planet-frontend/
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/yourusername/ai-planet-frontend.git](https://github.com/AI-planet-Project/ai-planet-frontend.git)
+git clone https://github.com/AI-planet-Project/ai-planet-frontend.git
 cd ai-planet-frontend
 ```
 
