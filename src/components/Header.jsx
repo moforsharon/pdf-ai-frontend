@@ -39,7 +39,7 @@ const Header = ({ onFileSelected, uploading, filename, uploadError }) => {
         <div className="flex flex-col">
             <nav className="flex items-center justify-between shadow-md p-6 w-full overflow-hidden">
                 <div className="flex items-center flex-shrink-0 mr-20 md:mr-36 md:ml-6">
-                    <img src={require("../assets/aiLogo.png")} alt="Logo" className="h-9 md:h-12" />
+                    <img src={require("../assets/ai.png")} alt="Logo" className="h-9 md:h-12" />
                 </div>
                 <div className="flex justify-around space-x-2 md:space-x-5">
                     <div className="flex justify-between items-center space-x-1 text-sm md:text-md text-primary">
