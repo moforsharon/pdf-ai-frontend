@@ -50,7 +50,7 @@ const Header = ({ onFileSelected, uploading, filename, uploadError }) => {
                         <div className="relative">
                             <button className="py-2 px-5 border-1 border-secondary bg-secondary text-white font-medium rounded-md flex justify-between items-center space-x-2">
                                 <FaPlusCircle className="h-3 md:h-4" />
-                                {uploading? <p className="hidden md:text-sm md:block">Uploading...</p> : <p className="hidden md:text-sm md:block">Upload PDF</p>}
+                                {uploading? <p className="hidden md:text-sm md:block">Uploading..</p> : <p className="hidden md:text-sm md:block">Upload PDF</p>}
                             </button>
                         </div>
                         <input
